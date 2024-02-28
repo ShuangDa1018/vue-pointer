@@ -1,14 +1,22 @@
 {
+  "name": "vue-pointer",
+  "version": "1.0.0",
+  "description": "```sh\r npm install vue-pointer\r ```",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "element-plus": "^2.5.6",
+    "vitepress": "^1.0.0-rc.44",
+    "vue": "^3.4.20"
+  },
+  "devDependencies": {},
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "devDependencies": {
-    "vitepress": "1.0.0-rc.44",
-    "vue": "^3.4.20"
-  },
-  "dependencies": {
-    "element-plus": "^2.5.6"
-  }
+  "author": "",
+  "license": "ISC"
 }
